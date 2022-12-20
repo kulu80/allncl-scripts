@@ -33,20 +33,11 @@ verlay_11.ncl
 begin
 
 
-#   dir                      = "/mnt/lfs4/HFIP/hwrfv3/Bantwale.Enyew/allncl-scripts"
-#   files = systemfunc (" ls -1 " + dir + "zave_zmidcent_rcp85_selmon_zconcat_latlon_ua850*.nc")
-#   numfiles = dimsizes(files)
-#   print(files)
-#   print(" ")
-
-
-
-   dir                      = "/mnt/lfs4/HFIP/hwrfv3/Bantwale.Enyew/allncl-scripts"
-   files = systemfunc (" ls -1 " + dir + "*.nc")
-    numfiles = dimsizes(files) 
+   dir                      = "./"
+   files = systemfunc (" ls -1 " + dir + "zave_zmidcent_rcp85_selmon_zconcat_latlon_ua850*.nc")
+   numfiles = dimsizes(files)
    print(files)
    print(" ")
-
 
 
 do it= 0,numfiles-1 
