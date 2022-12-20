@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 this is a readme file on how to  test github sync and merge
 
+=======
+This is a readme file to test pull request and merge in github
+>>>>>>> 195e62931f312fdda86a5a2d0bdcc1053a3fc07d
